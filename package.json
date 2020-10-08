@@ -1,0 +1,20 @@
+{
+  "name": "test-react-act",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "app": "yarn workspace app",
+    "test": "react-scripts test"
+  },
+  "devDependencies": {
+    "@storybook/core": "6.0.26",
+    "@testing-library/react": "^11.0.4",
+    "@types/react": "^16.9.51",
+    "react-scripts": "^3.4.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
